@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/bottom_nav_category"
+        android:title="Categories"
+        android:icon="@drawable/menu_category_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottom_nav_education"
+        android:title="Education"
+        android:icon="@drawable/education_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottom_nav_shop"
+        android:title="Shop"
+        android:icon="@drawable/shop_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/menu_profile_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"/>
+
+</menu>
